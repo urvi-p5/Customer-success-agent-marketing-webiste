@@ -370,8 +370,6 @@ export const blogPosts = [
 <blockquote><p><em>Every industry has users who struggle silently. VigilAI makes sure none of them struggle alone.</em></p></blockquote>
 
 <p>Want to see how VigilAI would work for your specific product? Try the live demo built by Tantra Labs, or reach out to our team to discuss your use case.</p>
-
-<p><em>Built by Tantra Labs · SolGuruz Hackathon 2026</em></p>
     `,
   },
 ];
