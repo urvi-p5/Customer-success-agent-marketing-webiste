@@ -372,4 +372,115 @@ export const blogPosts = [
 <p>Want to see how VigilAI would work for your specific product? Try the live demo built by Tantra Labs, or reach out to our team to discuss your use case.</p>
     `,
   },
+  {
+    id: "connect-your-favorite-tools-how-integrations-work",
+    slug: "connect-your-favorite-tools-how-integrations-work",
+    title: "Connect Your Favorite Tools: How Integrations Work",
+    excerpt:
+      "Your customer success stack shouldn't live in silos. Vigil's Integrations page makes it effortless to connect the tools you already use — so insights flow where decisions get made.",
+    author: "Vigil Team",
+    date: "March 1, 2026",
+    readTime: "5 min read",
+    content: `
+<div class="mb-12 rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
+  <img src="/blog-image.png" alt="Vigil Integrations Dashboard" class="w-full h-auto" />
+</div>
+
+<p>When an AI surfaces a churn risk signal at 2am, that insight is only valuable if it reaches the right person in the right place — not buried inside another dashboard tab they have to remember to check. That's the problem Vigil's Integrations feature solves.</p>
+
+<p>The Integrations page is a central hub inside your Vigil workspace where you can connect the tools your team already lives in. Currently supported out of the box: <strong>Slack</strong>, <strong>Zapier</strong>, and <strong>HubSpot</strong> — with more on the way.</p>
+
+<h2>Why integrations matter for customer success</h2>
+
+<p>Modern CS teams are context-switching between their CRM, communication tools, ticketing systems, and analytics platforms constantly. Every context switch is friction. Every piece of friction slows down the response to a customer in need.</p>
+
+<p>Vigil's core value proposition is proactive intelligence — catching the signals that predict churn, expansion, or disengagement before they become problems. But proactive only means something if that intelligence arrives in time, in the right hands. Integrations are what make that loop complete.</p>
+
+<div class="bg-blue-500/10 border border-blue-500/20 rounded-xl p-6 mb-8 mt-4">
+  <p className="text-blue-300 mb-0"><strong>The goal is simple:</strong> Vigil thinks, your tools act. Connect once, and every alert, health score change, or at-risk account surfaces automatically in the platforms where your team is already working.</p>
+</div>
+
+<h2>What each integration does</h2>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+  <div class="bg-[#161b22] border border-[#21262d] rounded-xl p-6 hover:border-blue-500/30 transition-colors">
+    <div class="text-3xl mb-3 text-white">💬</div>
+    <div class="font-bold text-white mb-2">Slack</div>
+    <div class="text-sm text-gray-400 leading-relaxed">Get real-time alerts for churn risks, health score drops, and usage anomalies delivered directly to any channel or DM.</div>
+  </div>
+  <div class="bg-[#161b22] border border-[#21262d] rounded-xl p-6 hover:border-blue-500/30 transition-colors">
+    <div class="text-3xl mb-3 text-white">⚡</div>
+    <div class="font-bold text-white mb-2">Zapier</div>
+    <div class="text-sm text-gray-400 leading-relaxed">Trigger automated workflows across 6,000+ apps. When Vigil flags an account, your CRM, helpdesk, or task manager can act instantly.</div>
+  </div>
+  <div class="bg-[#161b22] border border-[#21262d] rounded-xl p-6 hover:border-blue-500/30 transition-colors">
+    <div class="text-3xl mb-3 text-white">🔗</div>
+    <div class="font-bold text-white mb-2">HubSpot</div>
+    <div class="text-sm text-gray-400 leading-relaxed">Sync customer health data and risk signals directly into your CRM so your sales and CS teams see a unified picture.</div>
+  </div>
+</div>
+
+<h2>How to connect an integration</h2>
+
+<p>Getting connected takes under two minutes. Here's how the flow works:</p>
+
+<div class="space-y-6 mb-10">
+  <div class="flex gap-4">
+    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-500/20 border border-blue-500/30 flex items-center justify-center text-blue-400 font-bold text-sm">1</div>
+    <div>
+      <h4 class="text-white font-bold mb-1">Navigate to Integrations</h4>
+      <p class="text-gray-400 text-sm">In the left sidebar of your Vigil workspace, click <strong>Integrations</strong>. You'll see all available tools listed with their current connection status.</p>
+    </div>
+  </div>
+  <div class="flex gap-4">
+    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-500/20 border border-blue-500/30 flex items-center justify-center text-blue-400 font-bold text-sm">2</div>
+    <div>
+      <h4 class="text-white font-bold mb-1">Click Connect on any tool</h4>
+      <p class="text-gray-400 text-sm">Hit the <strong>Connect</strong> button next to the tool you want to link. This launches an OAuth authorization flow directly with the third-party service — we never see or store your credentials.</p>
+    </div>
+  </div>
+  <div class="flex gap-4">
+    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-500/20 border border-blue-500/30 flex items-center justify-center text-blue-400 font-bold text-sm">3</div>
+    <div>
+      <h4 class="text-white font-bold mb-1">Authorize access</h4>
+      <p class="text-gray-400 text-sm">Grant Vigil the necessary permissions in the provider's UI. For Slack, you'll choose which workspace and channels. For HubSpot, you'll select the portal. For Zapier, you'll authenticate your account.</p>
+    </div>
+  </div>
+  <div class="flex gap-4">
+    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-500/20 border border-blue-500/30 flex items-center justify-center text-blue-400 font-bold text-sm">4</div>
+    <div>
+      <h4 class="text-white font-bold mb-1">Configure your preferences</h4>
+      <p class="text-gray-400 text-sm">Once connected, you'll be prompted to set up notification preferences — which events trigger alerts, thresholds for health score changes, and which team members receive what signals.</p>
+    </div>
+  </div>
+  <div class="flex gap-4">
+    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-500/20 border border-blue-500/30 flex items-center justify-center text-blue-400 font-bold text-sm">5</div>
+    <div>
+      <h4 class="text-white font-bold mb-1">You're live</h4>
+      <p class="text-gray-400 text-sm">That's it. The integration status updates to <strong>Connected</strong> and Vigil starts routing intelligence to your tools in real-time.</p>
+    </div>
+  </div>
+</div>
+
+<h2>Security & data handling</h2>
+
+<p>Every integration uses <strong>OAuth 2.0</strong> — the same industry-standard protocol that powers "Sign in with Google" and similar flows. Vigil never stores your third-party passwords or tokens in plaintext. All connection tokens are encrypted at rest and in transit, and you can revoke access at any time from either side.</p>
+
+<p>For enterprise customers, all integration activity is logged in your audit trail. You'll have full visibility into which events were sent, when, and to which destination — making compliance reviews straightforward.</p>
+
+<h2>What's coming next</h2>
+
+<p>The three launch integrations — Slack, Zapier, and HubSpot — are just the beginning. On the roadmap: <strong>Salesforce</strong>, <strong>Intercom</strong>, <strong>Zendesk</strong>, <strong>Linear</strong>, and a public webhook API for teams that want to build their own custom pipelines.</p>
+
+<p>If there's a tool your team can't live without, we want to hear about it. Every integration request goes directly into our prioritization queue.</p>
+
+<hr class="border-white/10 my-10" />
+
+<p>Integrations are live now for all Vigil plans. If you haven't connected your tools yet, head to your workspace's <strong>Integrations</strong> tab to get started — it takes less than two minutes, and your team will start receiving signals right where they work.</p>
+
+<div class="bg-blue-500/10 border border-blue-500/20 rounded-xl p-6">
+  <p class="text-blue-300 mb-0">Questions about a specific integration or use case? <strong>Reach out to our team</strong> — we're happy to walk through the setup and make sure it fits your workflow perfectly.</p>
+</div>
+    `,
+  },
 ];

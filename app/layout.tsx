@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import HeatmapTracker from "@/components/shared/HeatmapTracker";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -31,6 +32,8 @@ export const metadata: Metadata = {
       "Vigil.AI watches how your users interact with your SaaS and intervenes with real-time guidance when they get stuck.",
     type: "website",
   },
+  robots:
+    "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
 };
 
 export default function RootLayout({
@@ -43,6 +46,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
       >
+        <HeatmapTracker />
         {children}
       </body>
     </html>
