@@ -383,7 +383,7 @@ export const blogPosts = [
     readTime: "5 min read",
     content: `
 <div class="mb-12 rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
-  <img src="/blog-image.png" alt="Vigil Integrations Dashboard" class="w-full h-auto" />
+  <img src="/blog-works.png" alt="Vigil Integrations Dashboard" class="w-full h-auto" />
 </div>
 
 <p>When an AI surfaces a churn risk signal at 2am, that insight is only valuable if it reaches the right person in the right place — not buried inside another dashboard tab they have to remember to check. That's the problem Vigil's Integrations feature solves.</p>
